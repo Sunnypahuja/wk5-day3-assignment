@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.image {
+  width: 400px;
+  background-size: cover;
+  height: 450px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+
+.header {
+  background: linear-gradient(to right, #3A6073, #16222A);
+  height: 12em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#vue {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.selections div {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  color: #ffff;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.name {
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.content {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+button {
+  margin-left: 160px;
+}
+
+/*# sourceMappingURL=styles.css.map */
